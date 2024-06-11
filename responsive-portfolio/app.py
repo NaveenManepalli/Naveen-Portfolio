@@ -28,10 +28,10 @@ def send_email(name, email, subject, message):
     msg['To'] = to
     
     
-    smtp_server = 'smtp.gmail.com'
+    smtp_server = 'your smpt server'
     smtp_port = 587
-    smtp_user = 'manepallinaveen10@gmail.com'
-    smtp_password = 'lemv dtvy bnbz pobb'
+    smtp_user = 'your mail id'
+    smtp_password = 'your pearsonal password'
     
     with smtplib.SMTP(smtp_server, smtp_port) as server:
         server.starttls()
